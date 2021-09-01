@@ -1,0 +1,44 @@
+/*reset start*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+button {
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+  border-radius: 0;
+}
+
+/*reset end*/
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #22b573;
+  color: #f2f2f2;
+}
+
+body #root {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=App.css.map */

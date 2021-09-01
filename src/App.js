@@ -1,10 +1,11 @@
 import './App.css';
+import Nav from './components/Nav/Nav.jsx';
 
 function App() {
   return (
-    <div>
-      Exam hoooray
-    </div>
+    <>
+      <Nav />
+    </>
   );
 }
 

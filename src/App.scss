@@ -1,0 +1,41 @@
+/*reset start*/
+* {
+    margin: 0;
+    padding: 0; 
+    border: 0; 
+    background: transparent; 
+    outline: none; 
+    text-decoration: none; 
+    font-family: inherit; 
+    box-sizing: border-box;
+}
+
+a img {
+    border: none;
+}
+
+button, 
+a {
+    cursor: pointer; 
+    color: inherit;
+}
+
+button {
+    appearance: none !important; 
+    border-radius: 0;
+}
+/*reset end*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #22b573;
+    color: #f2f2f2;
+
+    #root{
+        width: 100%;
+        height: 100%;
+    }
+}
