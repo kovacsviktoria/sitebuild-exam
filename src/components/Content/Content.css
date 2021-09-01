@@ -1,0 +1,82 @@
+main {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 100px;
+}
+
+main .card-container {
+  width: 30%;
+  height: 25rem;
+  margin: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+main .card-container .title, main .card-container .date, main .card-container a {
+  color: #fcb84c;
+}
+
+main .card-container p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+main .card-container a {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main .left-card, main .mid-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .left-card, main .right-card {
+  background-color: #1c1717;
+}
+
+main .mid-card {
+  background-color: #f2f2f2;
+  color: #1c1717;
+}
+
+main .right-card .title {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 30px;
+  }
+  main .card-container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=Content.css.map */
